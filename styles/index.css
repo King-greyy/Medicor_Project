@@ -642,6 +642,7 @@ body {
     .face5 div {width: 90%;height: max-content;}
     .face6 {height: max-content;}
     .face6 div {width: 100%;height: 70vh;padding-top: 4%;}
+    .icon {width: 10%;right: 5%;}
     .footer {height: 30vh;padding: auto;justify-content: flex-start;}
 }
 @media screen and (max-width:400px) {

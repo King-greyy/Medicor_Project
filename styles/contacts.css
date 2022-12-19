@@ -298,7 +298,10 @@ body {
 .footer p>a:hover {
     color: rgb(69, 214, 25);
 }
-
+@media screen and (max-width: 480px) {
+  .contact {font-size: large;color: #f1f1f1;}
+  .icon {width: 10%;right: 5%;}
+}
 .icon {
   height: 19vh;
   width: 5%;

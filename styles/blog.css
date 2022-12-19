@@ -354,10 +354,12 @@ body a {
 @media screen and (max-width:550px) {
     .head {flex-flow: column wrap;}
     .head input{height: 120%;}    
+    .icon {width: 10%;right: 5%;}
+
 }
 
 @media screen and (max-width:400px) {
-    .logos {height: 125vh;width: 100%;justify-content: space-around;}
+    .logos {height: 75vh;width: 100%;justify-content: space-around;margin-top: 2px;}
 }
 
 
