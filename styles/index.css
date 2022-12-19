@@ -434,6 +434,9 @@ body {
 .face4 .active {
     color: rgb(92, 124, 11);
 }
+.face4 p>button i {
+    font-size: small;
+}
 .face5 {
     height: 50vh;
     width: 100%;
@@ -631,6 +634,7 @@ body {
     .words-2 #big {font-size: larger;}
     .words-2 a {font-size: medium;padding: auto;}
     .face2 img{width: 50%;height: 30%;}
+    .face4 p>button {font-size: large;position: relative;margin-bottom: 1%;}
     .darkbg #comment {font-size: large;}
     .darkbg p {font-size: small;}
     .subscribe {padding: 5%;overflow: scroll;}
