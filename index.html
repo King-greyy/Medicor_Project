@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Dan">
     <title>Medicor</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/index.css">
     <script src="https://kit.fontawesome.com/803cf42f36.js" crossorigin="anonymous"></script>
@@ -59,11 +60,15 @@
     </div>
 
 
-    <div class="navi">
-      <div class="star">
+    <div class="navi navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="star collapse navbar-collapse" >
         <a href="../index.html"><embed src="https://demo1.leotheme.com/bos_medicor_demo/img/bos-medicor-logo-1568714014.jpg"></a>
       </div>
-      <div class="mid">
+      <div class="mid collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <a href="./index.html" class="nav-link">
@@ -78,19 +83,19 @@
         </li>
       </ul>
       </div>
-      <div class="search">
+      <div class="search" >
         <div class="btn-group dropstart" >
-          <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+          <button type="button" class="btn collapse navbar-collapse" data-bs-toggle="dropdown" aria-expanded="false" id="navbarSupportedContent">
             <i class="fa-solid fa-magnifying-glass fa-2x hide"></i>
           </button>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu" >
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
           </form>
           </ul>
         </div> 
-        <i class="fa-solid fa-basket-shopping fa-3x hide"  ></i>
+        <i class="fa-solid fa-basket-shopping fa-3x hide collapse navbar-collapse"  ></i>
       </div>
     </div>
 
